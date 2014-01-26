@@ -638,6 +638,7 @@ body #portfolio #port_container {
   display: none;
   padding: 30px 5%;
   width: 90%;
+  margin-left: 6%;
 }
 body #portfolio #port_container .item {
   width: 21%;
@@ -813,6 +814,7 @@ body #jots .jots_container {
 }
 body #jots .jots_container .item {
   display: block;
+  margin-bottom: 10px;
 }
 body #jots .jots_container .item .image_wrapper {
   width: 64%;
@@ -870,10 +872,9 @@ body #jots .jots_container .item .item_extend img {
   width: 85%;
 }
 body #jots .jots_container .item .item_extend .item_extend_logo {
-  margin: 0 auto;
   width: 90px;
   height: 90px;
-  padding: 60px 10px 40px;
+  border-radius: 50%;
 }
 body #jots .jots_container .item .item_extend .item_title {
   padding: 5px 0px;
@@ -888,6 +889,17 @@ body #jots .jots_container .item .item_extend #close {
   margin-top: 60px;
   border-bottom: 1px solid #aaaaaa;
   padding-bottom: 6px;
+}
+body #jots .jots_container .item .item_extend .jots_image_list {
+  display: block;
+  margin: auto;
+}
+body #jots .jots_container .item .item_extend .jots_image_list li {
+  display: inline-block;
+  width: 220px;
+}
+body #jots .jots_container .item .item_extend .jots_image_list li img {
+  width: 98%;
 }
 body .section_title {
   font-weight: 500;

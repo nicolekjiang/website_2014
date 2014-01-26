@@ -106,6 +106,7 @@ input {
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  height: auto;
 }
 textarea {
   -webkit-resize: none !important;
@@ -239,6 +240,10 @@ hr {
 #pageslide {
   box-shadow: none !important;
   width: 130px !important;
+}
+#twitter-widget-0 {
+  height: 500px !important;
+  margin: 0 auto !important;
 }
 .twitter,
 .dribbble,
@@ -631,7 +636,6 @@ body #portfolio {
 }
 body #portfolio #port_container {
   display: none;
-  margin-left: 5%;
   padding: 30px 5%;
   width: 90%;
 }
@@ -840,6 +844,11 @@ body #jots .jots_container .item .info_wrapper hr {
   margin: 0 auto;
   margin-bottom: 5px;
 }
+body #jots .jots_container .item .info_wrapper .jots_date {
+  font-style: italic;
+  font-size: 13px;
+  padding-top: 5px;
+}
 body #jots .jots_container .item .info_wrapper .click_title {
   background: transparent url('img/jots/more.png') center center no-repeat;
   background-size: contain;
@@ -857,15 +866,21 @@ body #jots .jots_container .item .item_extend {
   margin: 30px auto;
   padding: 30px;
 }
+body #jots .jots_container .item .item_extend img {
+  width: 85%;
+}
+body #jots .jots_container .item .item_extend .item_extend_logo {
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  padding: 60px 10px 40px;
+}
 body #jots .jots_container .item .item_extend .item_title {
   padding: 5px 0px;
   font-weight: 400;
 }
 body #jots .jots_container .item .item_extend .item_content {
   padding: 5px 60px 50px;
-}
-body #jots .jots_container .item .item_extend img {
-  width: 85%;
 }
 body #jots .jots_container .item .item_extend #close {
   display: block;

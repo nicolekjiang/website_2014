@@ -106,6 +106,7 @@ input {
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  height: auto;
 }
 textarea {
   -webkit-resize: none !important;
